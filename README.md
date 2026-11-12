@@ -2,11 +2,11 @@
 
 An index of the public repositories on the [VideoStuff](https://github.com/VideoStuff) GitHub account (as of 2026-11-12). Each is a single-file web app you can open directly in a browser.
 
-| Repository | Last push | Summary |
-|---|---|---|
-| [PixelPlanner](https://github.com/VideoStuff/PixelPlanner) | 2026-11-08 | Multiscreen layout planner for live events (LED walls, projection screens, monitors). |
-| [SpeakerTimer](https://github.com/VideoStuff/SpeakerTimer) | 2026-11-06 | Stage-ready timer for talks and panels. |
-| [VideoInfo](https://github.com/VideoStuff/VideoInfo) | 2026-11-09 | "AV Product Announcements Watch" page (November 2026). |
+| Repository | Live site | Last push | Summary |
+|---|---|---|---|
+| [PixelPlanner](https://github.com/VideoStuff/PixelPlanner) | [videostuff.github.io/PixelPlanner](https://videostuff.github.io/PixelPlanner/) | 2026-11-08 | Multiscreen layout planner for live events (LED walls, projection screens, monitors). |
+| [SpeakerTimer](https://github.com/VideoStuff/SpeakerTimer) | n/a | 2026-11-06 | Stage-ready timer for talks and panels. |
+| [VideoInfo](https://github.com/VideoStuff/VideoInfo) | n/a | 2026-11-09 | "AV Product Announcements Watch" page (November 2026). |
 
 ## Details
 
