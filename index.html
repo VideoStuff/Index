@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VideoStuff Index</title>
+<meta name="description" content="Index of VideoStuff's public web tools for live events and AV.">
+<style>
+  :root { --bg:#f7f7f5; --fg:#1c1c1e; --muted:#5f6368; --card:#fff; --line:#e2e2de; --accent:#2457d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141416; --fg:#ececee; --muted:#9aa0a6; --card:#1e1e21; --line:#303034; --accent:#7ea2ff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px; }
+  h1 { margin:0 0 6px; font-size:2rem; }
+  .lead { color:var(--muted); margin:0 0 32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  .card:hover { border-color:var(--accent); }
+  a { color:var(--accent); }
+  .card h2 { margin:0 0 6px; font-size:1.2rem; }
+  .card p { margin:0 0 10px; }
+  .meta { color:var(--muted); font-size:.85rem; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:32px; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>VideoStuff</h1>
+  <p class="lead">Free web tools for live events and AV. Each one is a single page that runs in your browser.</p>
+
+  <div class="card">
+    <h2><a href="https://videostuff.github.io/PixelPlanner/">PixelPlanner</a></h2>
+    <p>Plan multiscreen video layouts for LED walls, projection screens and monitors. Works out each screen's pixels, matches pixel density, and exports guides and templates for content, playback and switcher teams.</p>
+    <span class="meta"><a href="https://videostuff.github.io/PixelPlanner/">Open the app</a> · <a href="https://github.com/VideoStuff/PixelPlanner">Source</a></span>
+  </div>
+
+  <div class="card">
+    <h2><a href="https://github.com/VideoStuff/SpeakerTimer">SpeakerTimer</a></h2>
+    <p>A stage-ready timer for talks and panels: several timers at once, chained segments, a green/yellow/red stage display, chimes, scheduling and backup.</p>
+    <span class="meta"><a href="https://github.com/VideoStuff/SpeakerTimer">Source on GitHub</a></span>
+  </div>
+
+  <div class="card">
+    <h2><a href="https://github.com/VideoStuff/VideoInfo">VideoInfo</a></h2>
+    <p>AV Product Announcements Watch (November 2026): a one-page tracker of product news in the AV industry.</p>
+    <span class="meta"><a href="https://github.com/VideoStuff/VideoInfo">Source on GitHub</a></span>
+  </div>
+
+  <footer>Index maintained at <a href="https://github.com/VideoStuff/Index">github.com/VideoStuff/Index</a>.</footer>
+</main>
+</body>
+</html>
